@@ -14,7 +14,7 @@ module.exports = {
 
           iao = new MessageEmbed()
           .setTitle("Made food!")
-          .setImage("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.printmag.com%2Fdesign-news%2Fsomeone-just-bought-a-gif-for-half-a-million-dollars%2F&psig=AOvVaw3D0NSC1yHWUwHTITSG6ZRT&ust=1648493448004000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJis-OT65vYCFQAAAAAdAAAAABAD")
+          .setImage('https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1')
           .setDescription(`${message.author} I have finished making your food!`)
           
 
