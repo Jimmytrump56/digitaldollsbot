@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'fight',
+    name: 'kill',
     async execute (client, message, args, Discord){
         const member = message.mentions.users.first()
         const rando_imgs = [
