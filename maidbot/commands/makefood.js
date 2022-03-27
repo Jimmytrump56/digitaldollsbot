@@ -16,6 +16,7 @@ module.exports = {
           .setTitle("Made food!")
           .setImage(imgss)
           .setDescription(`${message.author} I have finished making your food!`)
+          .setDescription('https://tenor.com/view/powerful-head-slap-anime-death-tragic-gif-14358509', 'https://tenor.com/view/saki-saki-mukai-naoya-slap-slapping-anime-slap-gif-22321835')
 
           message.channel.send({ embeds: [iao] });
       }
