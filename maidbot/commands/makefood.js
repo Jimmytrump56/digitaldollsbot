@@ -14,7 +14,7 @@ module.exports = {
 
           iao = new MessageEmbed()
           .setTitle("Made food!")
-          .setImage('https://www.treehugger.com/thmb/wY0ju4b55xfev1A88zGqUdH2VBo=/1000x650/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2018__09__cleaning-5a2b88796f2a48b09d33168208b5005b.jpeg')
+          .setImage('https://images-ext-2.discordapp.net/external/jnddukjQ3uWXOrYWFXS1BbnDUaoZZMdLplmw4ZONuz8/%3Fc%3DVjFfZGlzY29yZA/https/media.tenor.com/IUYCBeoqfHcAAAPo/bgc-mehgan-james.mp4')
           .setDescription(`${message.author} I have finished making your food!`)
           
 
