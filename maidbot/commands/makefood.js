@@ -14,7 +14,7 @@ module.exports = {
 
           iao = new MessageEmbed()
           .setTitle("Made food!")
-          .setImage('https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1')
+          .setImage('https://www.treehugger.com/thmb/wY0ju4b55xfev1A88zGqUdH2VBo=/1000x650/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2018__09__cleaning-5a2b88796f2a48b09d33168208b5005b.jpeg')
           .setDescription(`${message.author} I have finished making your food!`)
           
 
