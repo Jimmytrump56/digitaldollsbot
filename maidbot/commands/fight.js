@@ -23,12 +23,13 @@ module.exports = {
                 if(member === message.author){
                     return message.reply("You cant fight yourself!")
                 }
-                if(member === client){
+                if(member === client.user.id){
                     const youCantFIGHTMEIMGOD = new MessageEmbed
                     .setTitle("You thought!")
                     .setDescription("You cant fight me...IM GOD!")
                     .setImage("https://media.giphy.com/media/yXHStkBzabJ8dilHSR/giphy.gif")
                     message.channel.send({ embeds: [youCantFIGHTMEIMGOD] });
+                    return;
                 }
                 if(member){
                     iao = new MessageEmbed()
