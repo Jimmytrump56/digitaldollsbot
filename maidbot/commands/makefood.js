@@ -14,7 +14,7 @@ module.exports = {
 
           iao = new MessageEmbed()
           .setTitle("Made food!")
-          .setImage('https://media.giphy.com/media/hH9IstBk0muNq/giphy.gif')
+          .setImage(imgss)
           .setDescription(`${message.author} I have finished making your food!`)
           
 
