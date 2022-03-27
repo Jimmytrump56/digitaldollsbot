@@ -14,7 +14,7 @@ module.exports = {
 
           iao = new MessageEmbed()
           .setTitle("Made food!")
-          .setImage('https://images-ext-2.discordapp.net/external/jnddukjQ3uWXOrYWFXS1BbnDUaoZZMdLplmw4ZONuz8/%3Fc%3DVjFfZGlzY29yZA/https/media.tenor.com/IUYCBeoqfHcAAAPo/bgc-mehgan-james.mp4')
+          .setImage('https://media.giphy.com/media/hH9IstBk0muNq/giphy.gif')
           .setDescription(`${message.author} I have finished making your food!`)
           
 
