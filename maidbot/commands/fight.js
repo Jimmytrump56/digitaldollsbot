@@ -20,6 +20,16 @@ module.exports = {
 
                 msgf = rando_msgs[Math.floor(Math.random() * rando_msgs.length)]
 
+                if(member === message.author){
+                    return message.reply("You cant fight yourself!")
+                }
+                if(member === client){
+                    const youCantFIGHTMEIMGOD = new MessageEmbed
+                    .setTitle("You thought!")
+                    .setDescription("You cant fight me...IM GOD!")
+                    .setImage("https://media.giphy.com/media/yXHStkBzabJ8dilHSR/giphy.gif")
+                    message.channel.send({ embeds: [youCantFIGHTMEIMGOD] });
+                }
                 if(member){
                     iao = new MessageEmbed()
                     .setTitle("FIGHT!")
@@ -29,16 +39,6 @@ module.exports = {
                     message.channel.send({ embeds: [iao] });
         } if(!member){
             return message.reply("You cant just fight yourself you dumbass!");
-        }
-        if(member === message.author){
-            return message.reply("You cant fight yourself!")
-        }
-        if(member === client){
-            const youCantFIGHTMEIMGOD = new MessageEmbed
-            .setTitle("You thought!")
-            .setDescription("You cant fight me...IM GOD!")
-            .setImage("https://media.giphy.com/media/yXHStkBzabJ8dilHSR/giphy.gif")
-            message.channel.send({ embeds: [youCantFIGHTMEIMGOD] });
         }
     }
 
