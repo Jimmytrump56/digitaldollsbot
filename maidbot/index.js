@@ -1,3 +1,4 @@
+const { MessageEmbed } = require("discord.js")
 const Discord = require('discord.js');
 const {Client, Intents} = require('discord.js');
 const client = new Client({
@@ -37,7 +38,7 @@ client.on('message', message => {
     for (let i in bannedwords) {
         if(message.content.toLowerCase().includes(bannedwords[i])){
             message.delete();
-            const introubleembed = new Discord.MessageEmbed()
+            const introubleembed = new MessageEmbed()
             .setTitle("Auto filter flagged a word!")
             .setColor("RED")
             .setDescription(`${message.author} sent ${message.content} in ${message.channel}!`)
