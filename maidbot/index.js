@@ -37,6 +37,12 @@ client.on('message', message => {
     for (let i in bannedwords) {
         if(message.content.toLowerCase().includes(bannedwords[i])){
             message.delete();
+            const introubleembed = new Discord.MessageEmbed()
+            .setTitle("Auto filter flagged a word!")
+            .setColor("RED")
+            .setDescription(`${message.author} sent ${message.content} in ${message.channel}!`)
+            var speciallogs = message.guild.channels.cache.find(c => c.name === "╰﹒💞ᘐ︰log’s")
+            speciallogs.send(introubleembed)
         }
     }
 })
