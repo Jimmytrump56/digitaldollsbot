@@ -20,20 +20,6 @@ client.user.setActivity(' to your every command!', {type: "LISTENING"})
 })
 
 
-const bannedwords = [
-    "Faggot",
-    "Fag",
-    "nigger",
-    "nigga",
-    "you monkey",
-    "Kill yourself",
-    "gay",
-    "gae",
-    "girls can't",
-    "girls cant",
-    "beaner",
-]
-
 client.on('message', message => {
     for (let i in bannedwords) {
         if(message.content.toLowerCase().includes(bannedwords[i])){
